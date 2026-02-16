@@ -1,0 +1,34 @@
+{
+    "name": "sometest",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "FilesHere": {
+                "$className": "Folder"
+            },
+            "Asset": {
+                "$className": "Folder",
+                "Models": {
+                    "$className": "Folder",
+                    "AnotherModel": {
+                        "$className": "Model",
+                        "SomePartName": {
+                            "$className": "Part"
+                        },
+                        "PrettyPrincess": {
+                            "$className": "Model"
+                        }
+                    }
+                },
+                "SomeModelName": {
+                    "$className": "Model"
+                }
+            }
+        },
+        "ServerScriptService": {
+            "files": {
+                "$className": "Folder"
+            }
+        }
+    }
+}

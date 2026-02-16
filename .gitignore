@@ -1,0 +1,7 @@
+/node_modules
+.eslintrc
+.prettierrc
+/.vscode
+/dist
+/toybox-test.rbxlx
+/toybox-test.rbxlx.lock
