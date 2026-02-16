@@ -1,0 +1,39 @@
+{
+    "name": "@jaeymo/toybox",
+    "version": "1.0.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "description": "Toybox scans a Roblox hierarchy and produces a Rojo mapping so all of your assets are statically represented",
+    "homepage": "https://github.com/jaeymo/toybox#readme",
+    "bugs": {
+        "url": "https://github.com/jaeymo/toybox/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jaeymo/toybox.git"
+    },
+    "license": "MIT",
+    "author": "Jaeymo",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "ts-node src/cli.ts",
+        "clean": "rimraf dist"
+    },
+    "dependencies": {
+        "commander": "^14.0.3",
+        "fast-xml-parser": "^5.3.6",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@types/node": "^25.2.3",
+        "eslint": "^10.0.0",
+        "globals": "^17.3.0",
+        "rimraf": "^6.1.3",
+        "typescript-eslint": "^8.56.0"
+    }
+}
