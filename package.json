@@ -1,6 +1,6 @@
 {
     "name": "@jaeymo/toybox",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publishConfig": {
         "access": "public"
     },
@@ -8,6 +8,9 @@
     "homepage": "https://github.com/jaeymo/toybox#readme",
     "bugs": {
         "url": "https://github.com/jaeymo/toybox/issues"
+    },
+    "bin": {
+        "toybox": "dist/cli.js"
     },
     "repository": {
         "type": "git",
