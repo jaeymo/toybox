@@ -1,14 +1,12 @@
 # Toybox
-Toybox scans a Roblox asset hierarchy and produces a Rojo mapping so all of your assets are statically represented
+Toybox scans a Roblox asset hierarchy and produces a Rojo-compatible mapping so your assets are statically represented in your project configuration.
 
 ### Usage
-Run the CLI to generate a Rojo mapping from Roblox `.rbxlx` file:
+Start the Toybox server:
 ```console
-node dist/cli.js generate -i ./toybox-test.rbxlx -o ./default.project.json -f Assets
+toybox serve --project toybox.generated.json
 ```
-- `-i` / --input – Path to the `.rbxlx` file.
-- `-o` / --output – Path to your `.project.json` file.
-- `-f` / --folder – Name of the folder in ReplicatedStorage to map (default: Assets).
+Then click a directory in Roblox Studio with the plugin and hit "Watch". Your changes will now sync!
 
 ### Example
 If your ReplicatedStorage contains:
